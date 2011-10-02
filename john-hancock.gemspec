@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.markdown",
     "Rakefile",
     "VERSION",
+    "john-hancock.gemspec",
     "lib/john-hancock.rb",
     "test/helper.rb",
     "test/test_john-hancock.rb"
