@@ -15,7 +15,7 @@ require 'jeweler'
 Jeweler::Tasks.new do |gem|
   # gem is a Gem::Specification... see http://docs.rubygems.org/read/chapter/20 for more options
   gem.name = "john-hancock"
-  gem.homepage = "http://github.com/ascruggs/john-hancock"
+  gem.homepage = "http://github.com/AcademicWorks/john-hancock"
   gem.license = "MIT"
   gem.summary = %Q{Sign any hash as one would sign an api request}
   gem.description = %Q{Creating a signature from a hash has many uses.  You can use this for making authenticated requests to an api.  It can also be used to compare two hashes and see if their contents are equal}
