@@ -8,19 +8,22 @@
 ## Usage
 
   basic
-  	hash = {"foo" => "bar", "test" => "toon"}
-  	hash.sign
-  	=> "2a9807b64b8068a8a2a665521ad9aeae"
+  
+    hash = {"foo" => "bar", "test" => "toon"}
+    hash.sign
+    => "2a9807b64b8068a8a2a665521ad9aeae"
 
   signing with shared secret
-  	hash = {"foo" => "bar", "test" => "toon"}
-  	hash.sign("ipsec")
-  	=> "d7321e9c8f961deb9e114dd476e420a0"
+  
+    hash = {"foo" => "bar", "test" => "toon"}
+    hash.sign("ipsec")
+    => "d7321e9c8f961deb9e114dd476e420a0"
 
   sign ignoring certain fields
-  	hash = {"foo" => "bar", "test" => "toon"}
-  	hash.sign("ipsec", ["test"])
-  	=> "b2d1e2808552c9d421b2b6f617c71012"
+  
+    hash = {"foo" => "bar", "test" => "toon"}
+    hash.sign("ipsec", ["test"])
+    => "b2d1e2808552c9d421b2b6f617c71012"
 
 
 ## Contributing to john-hancock
